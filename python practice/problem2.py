@@ -1,4 +1,6 @@
-import pyttsx3
-engine = pyttsx3.init()
-engine.say(" hi i am Dhananjay this is my program ")
-engine.runAndWait()
+# program to find remender when the number is divided by z
+a = 34
+
+b = 5
+
+print("remainder when a is divided by b is ",a % b)
