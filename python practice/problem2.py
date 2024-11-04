@@ -1,6 +1,7 @@
-# program to find remender when the number is divided by z
-a = 34
+# program to fill lette
+# r template given below with name and date
+letter='''Dear <|Name|>,
+       you are selected! 
+       <|Date|>>'''
 
-b = 5
-
-print("remainder when a is divided by b is ",a % b)
+print(letter.replace("<|Name|>","Dhananjay").replace("<|Date|>","23 November 2024"))

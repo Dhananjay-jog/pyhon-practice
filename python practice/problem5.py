@@ -1,5 +1,3 @@
-# program to find average of two numbers entered by user
-a = int(input("enter number 1:"))
-b= int(input("enter number 2:"))
-print("the average of this two number is",(a+b/2))
-
+# program to format the following letter using escape sequence characters
+letter = "KILL THE BOY ,\n\tKILL THE BOY BE THE MAN \nremember"
+print(letter)

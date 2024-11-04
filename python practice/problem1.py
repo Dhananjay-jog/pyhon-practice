@@ -1,4 +1,3 @@
-a = 1
-b = 5
-print(a+b)
-# program to add number
+# program to display a user entered name followed by good afternoon using input() function
+name = input("enter your name :")
+print(f"good afternoon {name}")
